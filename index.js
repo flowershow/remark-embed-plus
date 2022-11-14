@@ -12,11 +12,11 @@ function transformer(tree) {
         Object.assign(node, {
           ...node,
           type: 'element',
-          data: {
-            hProperties: {
-              className: "aspect-w-16 aspect-h-9",
-            },
-          },
+           data: {
+             hProperties: {
+               className: "w-full",
+             },
+           },
           children: [{
             ...textNode,
             type: 'element',
@@ -26,6 +26,10 @@ function transformer(tree) {
               hProperties: {
                 src: iframeUrl,
                 allowfullscreen: true,
+                frameborder: "0",
+                allow: "accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture",
+                width: "100%",
+                height: "100%"
               }
             }
           }]
