@@ -14,7 +14,7 @@ function transformer(tree) {
           type: 'element',
            data: {
              hProperties: {
-               className: "w-full",
+               className: "aspect-w-16 aspect-h-9",
              },
            },
           children: [{
@@ -28,8 +28,6 @@ function transformer(tree) {
                 allowfullscreen: true,
                 frameborder: "0",
                 allow: "accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture",
-                width: "100%",
-                height: "100%"
               }
             }
           }]
