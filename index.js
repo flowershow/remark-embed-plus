@@ -14,7 +14,7 @@ function transformer(tree) {
           type: 'element',
            data: {
              hProperties: {
-               className: "aspect-w-16 aspect-h-9",
+               style: "position:relative;padding-bottom:56.25%",
              },
            },
           children: [{
@@ -25,9 +25,9 @@ function transformer(tree) {
               hName: 'iframe',
               hProperties: {
                 src: iframeUrl,
-                allowfullscreen: true,
-                frameborder: "0",
-                allow: "accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture",
+                frameborder:"0",
+                allow:"accelerometer; autoplay; encrypted-media; gyroscope;",
+                style:"position:absolute;top:0;left:0;width:100%;height:100%;"
               }
             }
           }]
