@@ -1,4 +1,4 @@
-🛑 This repository has been moved to https://github.com/flowershow/flowershow monorepo.
+🛑 This repository has been merged into [Flowershow monorepo](https://github.com/flowershow/flowershow).
 
 # remark-embed-plus
 
